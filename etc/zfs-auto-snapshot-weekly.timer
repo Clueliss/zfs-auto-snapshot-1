@@ -1,0 +1,9 @@
+[Unit]
+Description=ZFS weekly snapshot timer
+
+[Timer]
+OnCalendar=weekly
+Persistent=true
+
+[Install]
+WantedBy=timers.target
