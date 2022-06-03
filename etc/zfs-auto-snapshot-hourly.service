@@ -2,4 +2,4 @@
 Description=ZFS hourly snapshot service
 
 [Service]
-ExecStart=/usr/bin/zfs-auto-snapshot --prefix=zfs-auto-snap --quiet --syslog --label=hourly --keep=24 --default-exclude //
+ExecStart=/usr/local/sbin/zfs-auto-snapshot --prefix=zfs-auto-snap --quiet --syslog --label=hourly --keep=24 --default-exclude //

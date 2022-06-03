@@ -2,4 +2,4 @@
 Description=ZFS frequent snapshot service
 
 [Service]
-ExecStart=/usr/bin/zfs-auto-snapshot --prefix=zfs-auto-snap --quiet --syslog --label=frequent --keep=4 --default-exclude //
+ExecStart=/usr/local/sbin/zfs-auto-snapshot --prefix=zfs-auto-snap --quiet --syslog --label=frequent --keep=4 --default-exclude //
